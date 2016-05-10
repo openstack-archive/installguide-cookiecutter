@@ -1,0 +1,9 @@
+Code-Review+2: Lana Brindley <openstack@lanabrindley.com>
+Code-Review+2: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>
+Workflow+1: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Tue, 10 May 2016 22:14:46 +0000
+Reviewed-on: https://review.openstack.org/314229
+Project: openstack/installguide-cookiecutter
+Branch: refs/heads/master
