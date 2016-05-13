@@ -1,5 +1,5 @@
 =====================
-{{service}} service
+{{cookiecutter.service}} service
 =====================
 
 .. toctree::
@@ -9,7 +9,7 @@
    verify.rst
    next-steps.rst
 
-The {{service}} service ({{codename}}) provides...
+The {{cookiecutter.service}} service ({{cookiecutter.codename}}) provides...
 
 This chapter assumes a working setup of OpenStack following the base
 Installation Guide.

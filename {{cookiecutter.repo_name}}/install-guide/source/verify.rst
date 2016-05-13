@@ -3,4 +3,4 @@
 Verify operation
 ~~~~~~~~~~~~~~~~
 
-Verify operation of the {{service}} service.
+Verify operation of the {{cookiecutter.service}} service.

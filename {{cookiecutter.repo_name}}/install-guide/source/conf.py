@@ -55,7 +55,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Installation Guide for {{service}} Service'
+project = u'Installation Guide for {{cookiecutter.service}} Service'
 bug_tag = u'install-guide'
 copyright = u'2016, OpenStack contributors'
 
@@ -73,7 +73,7 @@ release = '0.1'
 #   gitsha: The SHA checksum of the bug description. Automatically extracted from git log.
 #   bug_tag: Tag for categorizing the bug. Must be set manually.
 # These variables are passed to the logabug code via html_context.
-giturl = u'http://git.openstack.org/cgit/openstack/{{codename}}/tree/install-guide/source'
+giturl = u'http://git.openstack.org/cgit/openstack/{{cookiecutter.codename}}/tree/install-guide/source'
 git_cmd = "/usr/bin/git log | head -n1 | cut -f2 -d' '"
 gitsha = os.popen(git_cmd).read().strip('\n')
 html_context = {"gitsha": gitsha, "bug_tag": bug_tag,

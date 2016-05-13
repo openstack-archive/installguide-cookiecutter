@@ -1,10 +1,10 @@
 =========================
-{{service}} service overview
+{{cookiecutter.service}} service overview
 =========================
 
-The {{service}} service provides...
+The {{cookiecutter.service}} service provides...
 
-The {{service}} service consists of the following components:
+The {{cookiecutter.service}} service consists of the following components:
 
-``{{codename}}-api`` service
+``{{cookiecutter.codename}}-api`` service
   Accepts and responds to end user compute API calls...

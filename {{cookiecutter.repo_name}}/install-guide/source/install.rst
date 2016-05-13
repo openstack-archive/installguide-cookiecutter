@@ -4,7 +4,7 @@ Install and configure
 ~~~~~~~~~~~~~~~~~~~~~
 
 This section describes how to install and configure the
-{{service}} service, code-named {{codename}}, on the controller node.
+{{cookiecutter.service}} service, code-named {{cookiecutter.codename}}, on the controller node.
 
 This section assumes that you already have a working OpenStack
 environment with at least the following components installed:
@@ -13,7 +13,7 @@ Compute, Image Service, Identity.
 Prerequisites
 -------------
 
-Before you install and configure the {{service}} service, you must create a
+Before you install and configure the {{cookiecutter.service}} service, you must create a
 database, service credentials, and API endpoints.
 
 #. To create the database, complete these steps:
@@ -25,22 +25,22 @@ database, service credentials, and API endpoints.
 
         $ mysql -u root -p
 
-   * Create the ``{{codename}}`` database:
+   * Create the ``{{cookiecutter.codename}}`` database:
 
      .. code-block:: console
 
-        CREATE DATABASE {{codename}};
+        CREATE DATABASE {{cookiecutter.codename}};
 
-      * Grant proper access to the ``{{codename}}`` database:
+      * Grant proper access to the ``{{cookiecutter.codename}}`` database:
 
         .. code-block:: console
 
-           GRANT ALL PRIVILEGES ON {{codename}}.* TO '{{codename}}'@'localhost' \
-             IDENTIFIED BY '{{codename|upper}}_DBPASS';
-           GRANT ALL PRIVILEGES ON {{codename}}.* TO '{{codename}}'@'%' \
-             IDENTIFIED BY '{{codename|upper}}_DBPASS';
+           GRANT ALL PRIVILEGES ON {{cookiecutter.codename}}.* TO '{{cookiecutter.codename}}'@'localhost' \
+             IDENTIFIED BY '{{cookiecutter.codename|upper}}_DBPASS';
+           GRANT ALL PRIVILEGES ON {{cookiecutter.codename}}.* TO '{{cookiecutter.codename}}'@'%' \
+             IDENTIFIED BY '{{cookiecutter.codename|upper}}_DBPASS';
 
-        Replace ``{{codename|upper}}_DBPASS`` with a suitable password.
+        Replace ``{{cookiecutter.codename|upper}}_DBPASS`` with a suitable password.
 
      * Exit the database access client.
 
@@ -53,11 +53,11 @@ database, service credentials, and API endpoints.
 
 #. To create the service credentials, complete these steps:
 
-   * Create the ``{{codename}}`` user:
+   * Create the ``{{cookiecutter.codename}}`` user:
 
      .. code-block:: console
 
-        $ openstack user create --domain default --password-prompt {{codename}}
+        $ openstack user create --domain default --password-prompt {{cookiecutter.codename}}
 
 Install and configure components
 --------------------------------
