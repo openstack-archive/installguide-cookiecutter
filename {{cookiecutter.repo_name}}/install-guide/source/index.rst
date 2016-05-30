@@ -4,7 +4,7 @@
 
 .. toctree::
 
-   get_started_database_service.rst
+   get_started.rst
    install.rst
    verify.rst
    next-steps.rst

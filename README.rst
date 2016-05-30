@@ -13,7 +13,7 @@ Generate a Install Guide skeleton::
 
     cookiecutter https://git.openstack.org/openstack/installguide-cookiecutter.git
 
-Answer the questions and add the created REPO/installguide directory
+Answer the questions and add the created REPO/install-guide directory
 to your repository REPO.
 
 Contribution
