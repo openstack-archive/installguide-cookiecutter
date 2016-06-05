@@ -31,18 +31,18 @@ database, service credentials, and API endpoints.
 
         CREATE DATABASE {{cookiecutter.codename}};
 
-      * Grant proper access to the ``{{cookiecutter.codename}}`` database:
+   * Grant proper access to the ``{{cookiecutter.codename}}`` database:
 
-        .. code-block:: console
+     .. code-block:: console
 
-           GRANT ALL PRIVILEGES ON {{cookiecutter.codename}}.* TO '{{cookiecutter.codename}}'@'localhost' \
-             IDENTIFIED BY '{{cookiecutter.codename|upper}}_DBPASS';
-           GRANT ALL PRIVILEGES ON {{cookiecutter.codename}}.* TO '{{cookiecutter.codename}}'@'%' \
-             IDENTIFIED BY '{{cookiecutter.codename|upper}}_DBPASS';
+        GRANT ALL PRIVILEGES ON {{cookiecutter.codename}}.* TO '{{cookiecutter.codename}}'@'localhost' \
+          IDENTIFIED BY '{{cookiecutter.codename|upper}}_DBPASS';
+        GRANT ALL PRIVILEGES ON {{cookiecutter.codename}}.* TO '{{cookiecutter.codename}}'@'%' \
+          IDENTIFIED BY '{{cookiecutter.codename|upper}}_DBPASS';
 
-        Replace ``{{cookiecutter.codename|upper}}_DBPASS`` with a suitable password.
+     Replace ``{{cookiecutter.codename|upper}}_DBPASS`` with a suitable password.
 
-     * Exit the database access client.
+   * Exit the database access client.
 
 #. Source the ``admin`` credentials to gain access to
    admin-only CLI commands:
