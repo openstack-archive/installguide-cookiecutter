@@ -11,6 +11,5 @@
 
 The {{cookiecutter.service}} service ({{cookiecutter.codename}}) provides...
 
-This chapter assumes a working setup of OpenStack following the base
-Installation Guide.
-
+This chapter assumes a working setup of OpenStack following the
+`OpenStack Installation Tutorial <http://docs.openstack.org/#install-guides>`_.
