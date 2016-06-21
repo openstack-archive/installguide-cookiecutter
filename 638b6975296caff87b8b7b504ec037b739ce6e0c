@@ -1,0 +1,11 @@
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Code-Review+1: Spyros Trigazis <strigazi@gmail.com>
+Code-Review+1: Goutham Pacha Ravi <gouthamr@netapp.com>
+Code-Review+2: Lana Brindley <openstack@lanabrindley.com>
+Workflow+1: Lana Brindley <openstack@lanabrindley.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Tue, 21 Jun 2016 06:22:36 +0000
+Reviewed-on: https://review.openstack.org/326193
+Project: openstack/installguide-cookiecutter
+Branch: refs/heads/master
