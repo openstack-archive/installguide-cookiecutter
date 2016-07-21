@@ -41,7 +41,7 @@ you must create a database, service credentials, and API endpoints.
 
    .. code-block:: console
 
-      $ source admin-openrc
+      $ . admin-openrc
 
 #. To create the service credentials, complete these steps:
 
