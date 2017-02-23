@@ -5,8 +5,6 @@ Team and repository tags
 .. image:: http://governance.openstack.org/badges/installguide-cookiecutter.svg
     :target: http://governance.openstack.org/reference/tags/index.html
 
-.. Change things from this point on
-
 ==========================
 Install Guide Cookiecutter
 ==========================
@@ -18,15 +16,11 @@ cookiecutter.
 Usage
 -----
 
-Generate a Install Guide skeleton::
-
-    cookiecutter https://git.openstack.org/openstack/installguide-cookiecutter.git
-
-Answer the questions and add the created REPO/install-guide directory
-to your repository REPO.
+The usage of this tool is documented in the
+`OpenStack Contributor Guide <https://docs.openstack.org/contributor-guide/project-install-guide.html>`_.
 
 Contribution
 ------------
 
-This repo is part of the OpenStack docs team, see
-http://docs.openstack.org/contributor-guide/ on how to contribute.
+This repo is part of the OpenStack docs team, see our
+`Contributor Guide <http://docs.openstack.org/contributor-guide/>`_ on how to contribute.

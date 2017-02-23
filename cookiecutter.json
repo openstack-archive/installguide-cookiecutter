@@ -1,6 +1,5 @@
 {
-	"repo_name": "replace with name of repo",
-	"service": "replace with the name of the service like Networking or Compute",
-	"codename": "replace with the codename like neutron or nova"
-
+  "service": "replace with the name of the service like Networking or Compute",
+  "codename": "replace with the codename like neutron or nova",
+  "directory_name": "install-guide"
 }
