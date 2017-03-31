@@ -15,13 +15,13 @@ you must create a database, service credentials, and API endpoints.
 
    * Create the ``{{cookiecutter.codename}}`` database:
 
-     .. code-block:: mysql
+     .. code-block:: none
 
         CREATE DATABASE {{cookiecutter.codename}};
 
    * Grant proper access to the ``{{cookiecutter.codename}}`` database:
 
-     .. code-block:: mysql
+     .. code-block:: none
 
         GRANT ALL PRIVILEGES ON {{cookiecutter.codename}}.* TO '{{cookiecutter.codename}}'@'localhost' \
           IDENTIFIED BY '{{cookiecutter.codename|upper}}_DBPASS';
@@ -32,7 +32,7 @@ you must create a database, service credentials, and API endpoints.
 
    * Exit the database access client.
 
-     .. code-block:: mysql
+     .. code-block:: none
 
         exit;
 
