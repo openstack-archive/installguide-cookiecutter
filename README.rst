@@ -1,27 +1,13 @@
-========================
-Team and repository tags
-========================
+This project is no longer maintained.
 
-.. image:: https://governance.openstack.org/badges/installguide-cookiecutter.svg
-    :target: https://governance.openstack.org/reference/tags/index.html
+The contents of this repository are still available in the Git
+source code management system.  To see the contents of this
+repository before it reached its end of life, please check out the
+previous commit with "git checkout HEAD^1".
 
-==========================
-Install Guide Cookiecutter
-==========================
+For an alternative project, please see cookiecutter at
+https://review.openstack.org/gitweb?p=openstack-dev/cookiecutter.git;a=summary.
 
-Cookiecutter template for an Install Guide skeleton. See
-https://github.com/audreyr/cookiecutter for full information about
-cookiecutter.
-
-Usage
------
-
-The usage of this tool is documented in the `OpenStack Contributor Guide
-<https://docs.openstack.org/contributor-guide/project-install-guide.html>`_.
-
-Contribution
-------------
-
-This repo is part of the OpenStack docs team, see our
-`Contributor Guide <https://docs.openstack.org/contributor-guide/>`_ on how to
-contribute.
+For any further questions, please email
+openstack-dev@lists.openstack.org or join #openstack-doc on
+Freenode.
